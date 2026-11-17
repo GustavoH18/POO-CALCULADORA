@@ -1,4 +1,3 @@
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -41,7 +40,6 @@ public class CalculadoraSimples extends JFrame {
 
         add(visor, BorderLayout.NORTH);
 
-        // Painel dos botões
         JPanel painel = new JPanel(new GridLayout(5, 4, 8, 8));
         painel.setBackground(FUNDO);
         painel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
